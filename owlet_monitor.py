@@ -5,8 +5,8 @@ import requests
 import json
 
 # Use custom methods to get authentication token 
-import authenticate
-import config
+import owlet.authenticate as authenticate
+import owlet.config as config
 
 # TODO: Check for OWLET_REGION
 region_config = config.region_config
